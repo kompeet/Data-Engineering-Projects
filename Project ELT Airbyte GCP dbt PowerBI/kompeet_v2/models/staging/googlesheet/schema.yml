@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: stg_googlesheet
+    description: "Includes Google Sheet data provided by hiflylabs"
+    columns:
+      - name: _pk
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+
+      - name: tags
+        description: "Organization tags"
+
+      - name: tags_split
+        description: "Split tags"
+
+      - name: l1_type
+        description: "Value types"
+
+      - name: l2_type
+        description: "Value types"
+
+      - name: l3_type
+        description: "Value types"
+
+      - name: organization
+        description: "Organizations"
+
+      - name: repository_name
+        description: "Repository name"
+
+      - name: repository_account
+        description: "Repository account"
+
+      - name: is_open_source_available
+        description: "Boolean availability"
+
+      - name: creationtime_at_datetime_utc
+        description: "Time of emission from Airbyte into Bigquery in UTL format"

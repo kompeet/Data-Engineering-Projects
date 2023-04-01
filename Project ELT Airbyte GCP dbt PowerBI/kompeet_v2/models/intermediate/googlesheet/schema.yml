@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: int_googlesheet
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: organization
+        description: ""
+
+      - name: repository_account
+        description: ""
+
+      - name: repository_name
+        description: ""
+
+      - name: l1_type
+        description: ""
+
+      - name: l2_type
+        description: ""
+
+      - name: l3_type
+        description: ""
+
+      - name: tags
+        description: ""
+
+      - name: tags_array
+        description: ""
+
+      - name: is_open_source_available
+        description: ""
+
+      - name: valid_from_datetime_utc
+        description: ""
+
+      - name: valid_to_datetime_utc
+        description: ""
+
+      - name: updated_at_datetime_utc
+        description: ""
+
+      - name: created_at_datetime_utc
+        description: ""

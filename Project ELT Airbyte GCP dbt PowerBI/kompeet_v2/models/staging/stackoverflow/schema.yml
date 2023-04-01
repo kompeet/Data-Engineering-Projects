@@ -1,0 +1,146 @@
+version: 2
+
+models:
+  - name: stg_stackoverflow_posts_questions
+    description: "Includes all Stackoverflow questions from 2022."
+    columns:
+      - name: _pk
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+
+      - name: id
+        description: "Name's ID"
+
+      - name: title
+        description: "Question title"
+
+      - name: body
+        description: "Question text"
+
+      - name: accepted_answer_id
+        description: "Answer ID"
+
+      - name: answer_count
+        description: "Count answers"
+
+      - name: comment_count
+        description: "Count comments"
+
+      - name: community_owned_datetime_utc
+        description: ""
+
+      - name: creation_datetime_utc
+        description: "Created"
+
+      - name: favorite_count
+        description: ""
+
+      - name: last_activity_datetime_utc
+        description: "Last activity"
+
+      - name: last_edit_datetime_utc
+        description: "Last edited"
+
+      - name: last_editor_display_name
+        description: ""
+
+      - name: last_editor_user_id
+        description: ""
+
+      - name: owner_display_name
+        description: ""
+
+      - name: owner_user_id
+        description: ""
+
+      - name: parent_id
+        description: ""
+
+      - name: post_type_id
+        description: ""
+
+      - name: score
+        description: ""
+
+      - name: tags
+        description: "Tags"
+
+      - name: tags_split
+        description: "Split tags"
+
+      - name: view_count
+        description: "Count view"
+
+  - name: stg_stackoverflow_posts_answers
+    description: "Includes all Stackoverflow answers from 2022."
+    columns:
+      - name: _pk
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+
+      - name: id
+        description: "Name's ID"
+
+      - name: title
+        description: "Tilte"
+
+      - name: body
+        description: "Answers text"
+
+      - name: accepted_answer_id
+        description: ""
+
+      - name: answer_count
+        description: ""
+
+      - name: comment_count
+        description: "Count comments"
+
+      - name: community_owned_datetime_utc
+        description: ""
+
+      - name: creation_datetime_utc
+        description: "Created date"
+
+      - name: favorite_count
+        description: ""
+
+      - name: last_activity_datetime_utc
+        description: "Last online"
+
+      - name: last_edit_datetime_utc
+        description: "Last edited"
+
+      - name: last_editor_display_name
+        description: ""
+
+      - name: last_editor_user_id
+        description: ""
+
+      - name: owner_display_name
+        description: ""
+
+      - name: owner_user_id
+        description: ""
+
+      - name: parent_id
+        description: ""
+
+      - name: post_type_id
+        description: ""
+
+      - name: score
+        description: ""
+
+      - name: tags
+        description: "Tags"
+
+      - name: tags_split
+        description: "Split tags"
+
+      - name: view_count
+        description: "Viewed"

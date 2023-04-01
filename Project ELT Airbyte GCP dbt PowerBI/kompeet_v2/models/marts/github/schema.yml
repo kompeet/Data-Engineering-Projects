@@ -1,0 +1,254 @@
+version: 2
+
+models:
+  - name: mart_github_daily
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_day_of_period
+        description: ""
+
+      - name: month
+        description: ""
+
+      - name: quarter
+        description: ""
+
+      - name: year
+        description: ""
+
+      - name: organization_name
+        description: ""
+
+      - name: repository_account
+        description: ""
+
+      - name: repository_name
+        description: ""
+
+      - name: event_count
+        description: ""
+
+      - name: user_count
+        description: ""
+
+      - name: follow_count
+        description: ""
+
+      - name: issues_count
+        description: ""
+
+      - name: watch_count
+        description: ""
+
+      - name: fork_count
+        description: ""
+
+      - name: push_count
+        description: ""
+
+      - name: pr_count
+        description: ""
+
+      - name: delete_count
+        description: ""
+
+      - name: public_count
+        description: ""
+
+      - name: create_count
+        description: ""
+
+      - name: forkapply_count
+        description: ""
+
+      - name: gollum_count
+        description: ""
+
+      - name: member_count
+        description: ""
+
+      - name: gist_count
+        description: ""
+
+      - name: commit_comment_count
+        description: ""
+
+      - name: download_count
+        description: ""
+
+      - name: total_event_count
+        description: ""
+
+  - name: mart_github_monthly
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_day_of_period
+        description: ""
+
+      - name: month
+        description: ""
+
+      - name: quarter
+        description: ""
+
+      - name: year
+        description: ""
+
+      - name: organization_name
+        description: ""
+
+      - name: repository_account
+        description: ""
+
+      - name: repository_name
+        description: ""
+
+      - name: event_count
+        description: ""
+
+      - name: user_count
+        description: ""
+
+      - name: follow_count
+        description: ""
+
+      - name: issues_count
+        description: ""
+
+      - name: watch_count
+        description: ""
+
+      - name: fork_count
+        description: ""
+
+      - name: push_count
+        description: ""
+
+      - name: pr_count
+        description: ""
+
+      - name: delete_count
+        description: ""
+
+      - name: public_count
+        description: ""
+
+      - name: create_count
+        description: ""
+
+      - name: forkapply_count
+        description: ""
+
+      - name: gollum_count
+        description: ""
+
+      - name: member_count
+        description: ""
+
+      - name: gist_count
+        description: ""
+
+      - name: commit_comment_count
+        description: ""
+
+      - name: download_count
+        description: ""
+
+      - name: total_event_count
+        description: ""
+
+  - name: mart_github_quarterly
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_day_of_period
+        description: ""
+
+      - name: month
+        description: ""
+
+      - name: quarter
+        description: ""
+
+      - name: year
+        description: ""
+
+      - name: organization_name
+        description: ""
+
+      - name: repository_account
+        description: ""
+
+      - name: repository_name
+        description: ""
+
+      - name: event_count
+        description: ""
+
+      - name: user_count
+        description: ""
+
+      - name: follow_count
+        description: ""
+
+      - name: issues_count
+        description: ""
+
+      - name: watch_count
+        description: ""
+
+      - name: fork_count
+        description: ""
+
+      - name: push_count
+        description: ""
+
+      - name: pr_count
+        description: ""
+
+      - name: delete_count
+        description: ""
+
+      - name: public_count
+        description: ""
+
+      - name: create_count
+        description: ""
+
+      - name: forkapply_count
+        description: ""
+
+      - name: gollum_count
+        description: ""
+
+      - name: member_count
+        description: ""
+
+      - name: gist_count
+        description: ""
+
+      - name: commit_comment_count
+        description: ""
+
+      - name: download_count
+        description: ""
+
+      - name: total_event_count
+        description: ""

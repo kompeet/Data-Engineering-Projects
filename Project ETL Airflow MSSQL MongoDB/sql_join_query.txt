@@ -1,0 +1,4 @@
+SELECT *
+FROM exam.dbo.airports AS a
+INNER JOIN exam.dbo.countries AS c
+ON a.iso_country = c.iso2_code;

@@ -1,0 +1,218 @@
+version: 2
+
+models:
+  - name: mart_stackoverflow_daily
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_day_of_period
+        description: ""
+
+      - name: month
+        description: ""
+
+      - name: quarter
+        description: ""
+
+      - name: year
+        description: ""
+
+      - name: organization_name
+        description: ""
+
+      - name: post_count
+        description: ""
+
+      - name: answer_count
+        description: ""
+
+      - name: avg_answer_count
+        description: ""
+
+      - name: comment_count
+        description: ""
+
+      - name: avg_comment_count
+        description: ""
+
+      - name: favorite_count
+        description: ""
+
+      - name: avg_favorite_count
+        description: ""
+
+      - name: view_count
+        description: ""
+
+      - name: avg_view_count
+        description: ""
+
+      - name: accepted_answer_count
+        description: ""
+
+      - name: no_answer_count
+        description: ""
+
+      - name: avg_no_answer_count
+        description: ""
+
+      - name: score
+        description: ""
+
+      - name: tags_count
+        description: ""
+
+      - name: last_activity_datetime_utc
+        description: ""
+
+      - name: last_edit_datetime_utc
+        description: ""
+
+  - name: mart_stackoverflow_monthly
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_day_of_period
+        description: ""
+
+      - name: month
+        description: ""
+
+      - name: quarter
+        description: ""
+
+      - name: year
+        description: ""
+
+      - name: organization_name
+        description: ""
+
+      - name: post_count
+        description: ""
+
+      - name: answer_count
+        description: ""
+
+      - name: avg_answer_count
+        description: ""
+
+      - name: comment_count
+        description: ""
+
+      - name: avg_comment_count
+        description: ""
+
+      - name: favorite_count
+        description: ""
+
+      - name: avg_favorite_count
+        description: ""
+
+      - name: view_count
+        description: ""
+
+      - name: avg_view_count
+        description: ""
+
+      - name: accepted_answer_count
+        description: ""
+
+      - name: no_answer_count
+        description: ""
+
+      - name: avg_no_answer_count
+        description: ""
+
+      - name: score
+        description: ""
+
+      - name: tags_count
+        description: ""
+
+      - name: last_activity_datetime_utc
+        description: ""
+
+      - name: last_edit_datetime_utc
+        description: ""
+
+  - name: mart_stackoverflow_quarterly
+    description: ""
+    columns:
+      - name: _pk
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: first_day_of_period
+        description: ""
+
+      - name: month
+        description: ""
+
+      - name: quarter
+        description: ""
+
+      - name: year
+        description: ""
+
+      - name: organization_name
+        description: ""
+
+      - name: post_count
+        description: ""
+
+      - name: answer_count
+        description: ""
+
+      - name: avg_answer_count
+        description: ""
+
+      - name: comment_count
+        description: ""
+
+      - name: avg_comment_count
+        description: ""
+
+      - name: favorite_count
+        description: ""
+
+      - name: avg_favorite_count
+        description: ""
+
+      - name: view_count
+        description: ""
+
+      - name: avg_view_count
+        description: ""
+
+      - name: accepted_answer_count
+        description: ""
+
+      - name: no_answer_count
+        description: ""
+
+      - name: avg_no_answer_count
+        description: ""
+
+      - name: score
+        description: ""
+
+      - name: tags_count
+        description: ""
+
+      - name: last_activity_datetime_utc
+        description: ""
+
+      - name: last_edit_datetime_utc
+        description: ""

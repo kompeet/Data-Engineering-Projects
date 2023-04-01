@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: googlesheet
+    description: Google Sheet Company Data
+    database: dbt-project-373811
+    schema: raw_airbyte
+    tables:
+      - name: gsheet
