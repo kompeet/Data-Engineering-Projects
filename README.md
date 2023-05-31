@@ -1,2 +1,20 @@
 # Data-Engineering-Projects
-ETL/ELT pipelines using Airbyte, Airflow, Docker, Google Cloud, MSSQL server, MongoDB, dbt, Python, SQL, Jupyter Notebook, IBM Cloud
+
+## ETL/ELT pipelines using:
+
+* Python 
+* SQL  
+* Airbyte 
+* Airflow 
+* Docker 
+* Google Cloud 
+* MSSQL server 
+* MongoDB 
+* dbt 
+* Jupyter Notebook 
+* IBM Cloud
+* DB2
+* PostgreSQL
+* MySQL
+* Shell Script
+
