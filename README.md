@@ -1,6 +1,6 @@
 # Data-Engineering-Projects
 
-## ETL/ELT pipelines using:
+## ETL/ELT pipelines 
 
 * Python
 * GIT 
@@ -9,7 +9,7 @@
 * Airbyte 
 * Airflow 
 * Docker 
-* Google Cloud 
+* Google Cloud
 * MSSQL server 
 * MongoDB 
 * Cassandra
